@@ -1,21 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OOPSConcept
+﻿namespace OOPSConcept
 {
-    class AbstractConcept
+    public class AbstractConcept
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("what is diff between abtract class and interface");
             PermentEmployee permentEmployee = new PermentEmployee();
              permentEmployee.Project();
              permentEmployee.Project1();
              permentEmployee.Role();
-             permentEmployee.Role1();
+             permentEmployee.Project();
               Console.ReadLine();
         }
 
